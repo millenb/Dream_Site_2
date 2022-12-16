@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif:700");
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(180deg, #142F58 3.65%, #583D14 72.4%, #142F58 100%);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.dream-part-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-family: 'Noto Serif';
+  /* background: rgba(24, 108, 32, 0.78); */
+  background: #14581B;
+
+  text-shadow: 0 0 1px #FF0000, 0 0 2px #0000FF;
+
+  text-align: center;
+  margin-top: 7%;
+
+  width: 90%;
+  height: 234px;
+  /* border: 3px solid black */
+  opacity: 0.75;
+}
+
+main {
+  width: 700px;
+  height: 80%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dream-content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+
+.card {
+  width: 200px;
+  height: 180px;
+  border: 5px solid black;
+  box-shadow: 10px 10px;
+  margin: 10%;
+  padding: 7px;
+  text-align: center;
+  font-size: 18.5px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgba(217, 217, 217, 0.72);
+}
+
+.card-tall {
+  width: 200px;
+  height: 300px;
+  border: 5px solid black;
+  margin: 10%;
+  padding: 7px;
+  text-align: center;
+  font-size: 18.5px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgba(217, 217, 217, 0.72);
+  box-shadow: 10px 10px;
+}
+
+.card-text {
+  height: 100%;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  width: 50%;
+  margin-top: 30px;
+  
+  font-size: 15px;
+  /* border: 1px solid black; */
+  padding-bottom: 7.5px;
+}
+
+.previous, .next {
+  width: 50%;
+}

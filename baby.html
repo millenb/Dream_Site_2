@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>The Dream of the Botanical Monograph</title>
+</head>
+
+<style>
+    @font-face {
+        font-family: myFirstFont;
+        src: url(LibreCaslonText-Regular.ttf);
+    }
+
+    body {
+        background-color: rgb(211, 210, 210);
+    }
+    main {
+        width: 76%;
+        height: 76%;
+        margin: auto;
+
+        display: flex;
+        flex-direction: row;
+
+        /* border: 5px solid black; */
+    }
+
+    #baby-pic {
+        width: 68%;
+        height: 100%;
+        /* border: 5px solid green; */
+    }
+
+    #column {
+        width: 31%;
+        height: auto;
+        /* border: 5px solid orange; */
+
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    .box {
+        width: 98%;
+        height: 32%;
+        /* border: 5px solid blue; */
+    }
+
+    .text {
+        height: 33%;
+        width: 90%;
+        margin: 20px;
+        font-family: myFirstFont;
+    }
+
+</style>
+
+<body>
+    <main>
+        <img src="baby.png" alt="the baby in me" id="baby-pic">
+        <div id="column">
+            <div class="box">
+                <div class="text">We were selling baby toys out of the trunk of your car.</div>
+                <div class="text">A customer came to purchase something, but the toy had gotten dirty.</div>
+                <div class="text">It had gotten dirty by coming into contact with something else in the car that was dirty.</div>
+            </div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+    </main>
+    
+</body>
+
+</html>

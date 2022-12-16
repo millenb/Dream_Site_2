@@ -1,0 +1,55 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>The Dream of the Botanical Monograph</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<style>
+  #secret {
+    position: relative;
+    left: 13%;
+    /* border: 5px solid black; */
+    height: 50px;
+    width: 50px;
+  }
+</style>
+
+<body>
+  <main>
+    
+    <div class="dream-part-row">
+      <div class="dream-part-text" style="color: #581451; margin-top: 20px; margin-left: 20px; margin-right: 20px;">The book lay before me and I was at the moment turning over a folded coloured plate.</div>
+      <div class="buttons">
+        <div class="previous"><a href="index.html">but</a></div>
+        <div class="next"><a href="dream3.html">and</a></div>
+      </div>
+    </div>
+    <div class="dream-content">
+      <div class="card-tall">I had had a letter from my friend in Berlin the day before in which he had shown his power of visualization: ‘I am very much ocupied with your dream-book. <a href="before-me.html">I see it</a> lying finished before me and I see myself turning over its pages!'</div>
+      <div class="card-tall">While I was a medical student I was the constant victim of an impulse only to learn things out of monographs. In spite of my limited means, I succeeded in getting a hold of a number of volumes of the proceedings of medical societies and was enthralled by their <a href="coloured-plates.html">coloured plates</a>.
+      </div>
+    </div>
+    
+    
+  </main>
+  
+  <div id="secret"></div>
+
+</body>
+
+<script>
+  var hidingPlace = document.getElementById("secret");
+
+  console.log(hidingPlace); 
+
+  var onHover = function() {
+    window.open("baby.html");
+  }
+
+  hidingPlace.addEventListener("mouseover", onHover);
+</script>
+
+</html>

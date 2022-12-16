@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>The Dream of the Botanical Monograph</title>
+  <!-- <script src="main.js"></script> -->
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  
+</head>
+
+<style>
+    @font-face {
+        font-family: myFirstFont;
+        src: url(LibreCaslonText-Regular.ttf);
+    }
+
+  #secret {
+    position: relative;
+    left: 23%;
+    /* border: 5px solid black; */
+    height: 50px;
+    width: 50px;
+  }
+
+  #intro {
+    border: 1px solid black;
+    height: 67%;
+    width: 15%;
+    position: absolute;
+    left: 5%;
+    background: rgba(217, 217, 217, 0.72);
+    opacity: 0.25;
+    padding: 15px;
+    font-family: myFirstFont;
+  }
+</style>
+
+
+<body>
+  <main>
+    <div id="intro">Welcome to Freud's virtual 'Botanical Monograph' dream. He analyzed his dream on pages 170-173 of the James Strachey translation of <em>The Interpretation of Dreams</em> in <a href="https://pep-web.org/browse/document/SE.004.0000A">The Standard Edition of the Complete Psychological Works of Sigmund Freud, Volume IV</a>. This website exists as the space of this dream, a space you can navigate through if you feel so called. You can click through the text of the manifest dream-content or you can click the hyperlinks to access the latent dream-thoughts. Enjoy. </br></br> Warning: Engagement with dream analysis can trigger repressed memory-traces.</div>
+    <div class="dream-part-row">
+      <div class="dream-part-text" style="color: #581451;">I had written a monograph on a certain plant.</div>
+      <div class="buttons">
+        <div class="previous"></div>
+        <div class="next"><a href="dream2.html">and</a></div>
+      </div>
+    </div>
+    <div class="dream-content">
+      <div class="card">
+        <div class="card-text">That morning I had seen a new book in the window of a book-shop, bearing the title The Genus <a href="flowers.html">Cyclamen</a> — evidently a monograph on that plant.</div>
+      </div>
+      <div class="card">
+        <div class="card-text">Once, I recalled, I really had written something in the nature of a monograph on a plant, namely <a href="cocaine.html">a dissertation on the coca-plant</a>.</div>
+      </div>
+    </div>
+
+    <div id="secret"></div>
+    
+  </main>
+  
+</body>
+
+<script>
+  var hidingPlace = document.getElementById("secret");
+
+  console.log(hidingPlace); 
+
+  var onHover = function() {
+    window.open("mary.html");
+  }
+
+  hidingPlace.addEventListener("mouseover", onHover);
+</script>
+
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>The Dream of the Botanical Monograph</title>
+</head>
+
+<style>
+     @font-face {
+        font-family: myFirstFont;
+        src: url(LibreCaslonText-Regular.ttf);
+    }
+
+    html {
+        width: 100%;
+        height: 100%;
+    }
+    
+    main {
+        width: 95%;
+        height: 95%;
+        margin: auto;
+
+        display: flex;
+        flex-direction: row;
+
+        /* border: 5px solid black; */
+    }
+
+    #christ-pic {
+        width: 67%;
+        height: 100%;
+        /* border: 5px solid green; */
+
+    }
+
+    #columns {
+        display: flex;
+        flex-direction: row;
+
+        width: 50%;
+        height: auto;
+        /* border: 5px solid orange; */
+    }
+
+    #column1 {
+        width: 10%;
+        height: 100%;
+        /* border: 5px solid blue; */
+    }
+
+    #column2 {
+        width: 90%;
+        height: 100%;
+        /* border: 5px solid yellow; */
+    }
+
+    .box {
+        width: 100%;
+        height: 30%;
+        /* border: 5px solid black; */
+    }
+
+    .text {
+        width: 100%;
+        height: 20%;
+        font-family: myFirstFont;
+        /* border: 1px solid red; */
+    }
+
+</style>
+
+<body>
+    <main>
+        <img src="christ.png" alt="the baby in me" id="christ-pic">
+        <div id="columns">
+            <!-- <div class="column"></div> -->
+            <div id="column1"></div>
+            <div id="column2">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box">
+                    <div class="text">YOU ARE DRIVING AWAY</div>
+                    <div class="text">YOU ARE DRIVING AWAY</div>
+                    <div class="text">YOU ARE DRIVING AWAY</div>
+                    <div class="text">YOU ARE DRIVING AWAY</div>
+                    <div class="text">YOU ARE DRIVING <strong>AWAY</strong></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+</body>
+
+</html>

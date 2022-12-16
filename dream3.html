@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>The Dream of the Botanical Monograph</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<style>
+  #secret {
+    position: relative;
+    left: 10%;
+    /* border: 5px solid black; */
+    height: 50px;
+    width: 50px;
+  }
+
+  #secret2 {
+    position: relative;
+    left: 10%;
+    /* border: 5px solid black; */
+    height: 50px;
+    width: 50px;
+  }
+</style>
+
+<body>
+  <div id="secret"></div>
+  <main>
+    
+
+    <div class="dream-part-row">
+      <div class="dream-part-text" style="color: #581451; margin-top: 20px; margin-left: 20px; margin-right: 20px;"">Bound up in each copy there was a dried specimen of the plant, as though it had been taken from a herbarium.</div>
+      <div class="buttons">
+        <div class="previous"><a href="dream2.html">but</a></div>
+        <div class="next"></div>
+      </div>
+    </div>
+    <div class="dream-content">
+      <div class="card-tall">This led me to a memory from my secondary school. Our headmaster once called together the boys from the higher forms and handed over the school’s herbarium to them to be <a href="crucifers.html">looked through and cleaned</a>. Some small worms — book-worms — had found their way into it.</div>
+    </div>
+    
+  </main>
+
+  <div id="secret2"></div>
+
+</body>
+
+<script>
+  var hidingPlace = document.getElementById("secret");
+  var hidingPlace2 = document.getElementById("secret2");
+
+  var onHover = function() {
+    window.open("mary2.html");
+  }
+
+  var onHover2 = function() {
+    window.open("christ.html");
+  }
+
+  hidingPlace.addEventListener("mouseover", onHover);
+  hidingPlace2.addEventListener("mouseover", onHover2);
+
+
+</script>
+
+</html>
