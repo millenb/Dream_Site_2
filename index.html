@@ -22,6 +22,9 @@
     /* border: 5px solid black; */
     height: 50px;
     width: 50px;
+    background: #583D14;
+    opacity: .35;
+  
   }
 
   #intro {
@@ -34,6 +37,10 @@
     opacity: 0.25;
     padding: 15px;
     font-family: myFirstFont;
+  }
+
+  html, body {
+    background: linear-gradient(180deg, #142F58 3.65%, #583D14 72.4%, #142F58 100%);
   }
 </style>
 
@@ -73,6 +80,8 @@
   }
 
   hidingPlace.addEventListener("mouseover", onHover);
+
+  document.getElementById("secret").style.cursor = "pointer"; 
 </script>
 
 </html>
